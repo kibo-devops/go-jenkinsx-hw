@@ -17,7 +17,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 		log.Printf("title: %s\n", title)
 	}
 
-	fmt.Fprintf(w, "Hello from Kibo-Devops 2 :  "+title+"\n")
+	fmt.Fprintf(w, "Hello from Kibo-Devops 3 :  "+title+"\n")
 }
 
 func main() {
